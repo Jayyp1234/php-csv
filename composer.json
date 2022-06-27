@@ -1,0 +1,24 @@
+{
+    "name": "acer/phpcsv",
+    "description": "This is a simple hello world example.",
+    "authors": [
+        {
+            "name": "Okeke Johnpaul",
+            "email": "okekejohnpaul12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^5.0",
+        "guzzlehttp/guzzle":"^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+      }
+}
