@@ -1,5 +1,9 @@
 # PHPCSV LOADER
 
+Steps to Running The route.
+-------------------------
+1. run composer install
+
 This loads a csv file into the database
 
 Endpoints
